@@ -46,8 +46,6 @@ html {
   --cc-emerald-5: #10b981;
   --cc-emerald-6: #059669;
   --cc-emerald-7: #047857;
-  --cc-emerald-8: #065f46;
-  --cc-emerald-9: #064e3b;
 }
 
 * {
@@ -197,6 +195,7 @@ h2 {
   border-radius: 20px;
   background-color:var(--cc-indigo-2);
   overflow: hidden;
+  box-shadow: 5px 10px #888888;
 }
 
 .card:hover {
@@ -264,18 +263,18 @@ h2 {
 .left .card-btn {
   background-color: var(--cc-emerald-4);
   color: var(--cc-indigo-9);
-  box-shadow: 1px 1px 1px 0px white;
+  box-shadow: 5px 10px #4338ca;
 }
 
 .right .card-btn {
   background-color: var(--cc-emerald-3);
   color: var(--cc-indigo-9);
-  box-shadow: 1px 1px 3px 0 var(--cc-indigo-9);
+  box-shadow: 5px 10px #4338ca;
 }
 
 .card-btn:hover, .card-btn:focus  {
-  background-color:red;
-  color: indigo;
+  background-color:blue;
+  color: white;
 }
 
 .aboutme {
@@ -429,6 +428,7 @@ form {
   text-shadow: 1px 1px 2px var(--cc-emerald-8);
   align-self: flex-start;
   width: 100%;
+  box-shadow: 5px 10px #888888;
 }
 
 .submitbtn:hover {
