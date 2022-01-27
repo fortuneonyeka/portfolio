@@ -65,7 +65,6 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-  /* gap: 300px; */
   font-size: 25px;
   background-color: var(--cc-gray-9);
   padding: 50px;
