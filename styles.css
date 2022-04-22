@@ -117,6 +117,8 @@ body {
   text-align: center;
   padding: 32px;
   width: 55%;
+  font-weight: 600;
+  font-size: x-large;
 }
 
 .resume {
@@ -290,7 +292,7 @@ h2 {
 }
 
 .aboutme div {
-  width: 45%;
+  width: 60%;
   background-color: var(--cc-indigo-2) ;
   padding: 32px;
   border-radius: 20px;
@@ -397,28 +399,19 @@ textarea:focus {
 form {
   display: flex;
   margin-top: 50px;
-  width: 50%;
+  width: 67%;
   background-color: var(--cc-indigo-1);
   padding: 48px 24px;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 .form-text {
-  /* width: 40%;
-  justify-content: center;
-  align-items: center; */
- /* text-align: center; */
   padding: 25px;
   font-size: 25px;
   margin-bottom: 20px;
   text-transform: uppercase;
   width: 35%;
 }
-
-/* .form-text p {
-  align-items:center;
-  text-align: center;
-} */
 
 .submitbtn {
   background-color: var(--cc-emerald-4);
@@ -452,7 +445,7 @@ form {
 
 
 .icons{
-  display: inline-block;
+  
   display: flex ;
   justify-content: space-around;
   gap: 200px;
@@ -539,7 +532,7 @@ form {
   }
 
   .form-text {
-    /* word-wrap: break-word; */
+    display: flex;
     padding: 0px;
   }
 
